@@ -1,0 +1,34 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: KupTest - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\DOCUME~1\YDS\LOCALS~1\Temp\RSPB7.tmp" with contents
+[
+/nologo /ML /W3 /GR /GX /O1 /D "WIN32" /D "NDEBUG" /D "_CONSOLE" /D "_MBCS" /D "_STLP_USE_STATICX_LIB" /Fp"../bin/KupTest.pch" /YX /Fo"../bin/" /Fd"../bin/" /FD /c 
+"C:\Document\FSNLP_backup\resource\박소영\구구조 구문분석기 (KuPaser)\header_src\KupTest.cpp"
+]
+Creating command line "cl.exe @C:\DOCUME~1\YDS\LOCALS~1\Temp\RSPB7.tmp" 
+Creating temporary file "C:\DOCUME~1\YDS\LOCALS~1\Temp\RSPB8.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib libKup.lib /nologo /subsystem:console /incremental:no /pdb:"../bin/kup.pdb" /machine:I386 /nodefaultlib:"LIBCMT.lib" /out:"../bin/kup.exe" /libpath:"../lib" 
+"\Document\FSNLP_backup\resource\박소영\구구조 구문분석기 (KuPaser)\bin\KupTest.obj"
+".\gnu_getopt.lib"
+]
+Creating command line "link.exe @C:\DOCUME~1\YDS\LOCALS~1\Temp\RSPB8.tmp"
+<h3>Output Window</h3>
+Compiling...
+KupTest.cpp
+C:\Document\FSNLP_backup\resource\박소영\구구조 구문분석기 (KuPaser)\header_src\KupTest.cpp(85) : error C2039: 'clear' : is not a member of 'basic_string<char,struct std::char_traits<char>,class std::allocator<char> >'
+Error executing cl.exe.
+
+
+
+<h3>Results</h3>
+kup.exe - 1 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

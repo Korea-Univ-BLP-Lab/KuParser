@@ -1,0 +1,41 @@
+#ifndef NLP_DEF
+#define NLP_DEF
+
+#define SEEK_SET 0
+#define SEEK_CUR 1
+#define SEEK_END 2
+
+#define BuffSize 4096
+
+#define MaxLenMrp 256
+#define MaxLenPos 64
+
+#define MaxNumWrd 256
+#define MaxNumAmb 64
+
+#define IniWrd "$$"
+#define IniCnd "$$/$$"
+
+#define EndWrd "$$"
+#define EndCnd "$$/$$"
+
+#define EscMark "\\"
+
+#define SenDlmMark "\n"
+#define WrdDlmMark "\n"
+#define MrpDlmMark "+"
+
+#define WrdTagMark "\t"	/* Word Tag Mark */
+#define MrpTagMark "/"	/* Morpheme Tag Mark */
+
+#define WrdConMark "_"
+#define MrpConMark "+"
+
+#define PosExtMark "#"
+#define PosLexMark "&"
+
+#define AmbMark "^"
+
+#define MetaMark "+/\\"
+
+#endif

@@ -1,0 +1,85 @@
+NNCG	->	NNG
+NNCJ	->	NNG
+NNCV	->	NNG
+NNP	->	NNP
+NNBU	->	NNB
+NNB	->	NNB
+NPP	->	NP
+NPI	->	NP
+NU	->	NR
+
+VV	->	VV
+VJ	->	VA
+VX	->	VX
+VVX	->	VX
+VJX	->	VX
+
+AA	->	MAG
+AP	->	MAG
+AI	->	MAG
+AC	->	MAJ
+AV	->	MAG
+AJ	->	MAG
+
+DA	->	MM
+DI	->	MM
+DU	->	MM
+
+C	->	IC
+
+PS	->	JKS
+PO	->	JKO
+PC	->	JKC
+PA	->	JKB
+PV	->	JKV
+PD	->	JKG
+PX	->	JX
+PN	->	JC
+
+I	->	VCP
+
+EFC	->	EC
+EFF	->	EF
+EP	->	EP
+EFD	->	ETM
+EFN	->	ETN
+EFA	->	EC
+
+XSVV	->	XSV
+XSVJ	->	XSA
+XSVJD	->	XSA
+XSVJB	->	XSA
+XSA	->	MAG
+XSAH	->	MAG
+XSD	->	XSN
+XSNN	->	XSN
+XSNND	->	XSN
+XSNP	->	XSN
+XSNU	->	XSN
+XSNPL	->	XSN
+XPNN	->	XPN
+XPNU	->	XPN
+
+SS.	->	SF
+SS?	->	SF
+SS!	->	SF
+SS,	->	SP
+SS/	->	SP
+SS:	->	SP
+SS;	->	SP
+SS`	->	SS
+SS'	->	SS
+SS(	->	SS
+SS)	->	SS
+SS-	->	SS
+SS+	->	SO
+SS*	->	SO
+SSA	->	SE
+SSX	->	SW
+SCF	->	NNG
+SCH	->	NNG
+SCD	->	SN
+SPACE	->	SW
+
+NN?	->	NNG
+V?	->	VV
